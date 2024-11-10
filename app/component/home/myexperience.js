@@ -32,7 +32,7 @@ const myexperience = () => {
             </div>
 
             <div className='text-lg'>
-            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
+            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google&apos;s core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
             </div>
         </div>
 
@@ -61,7 +61,7 @@ const myexperience = () => {
             </div>
 
             <div className='text-lg'>
-            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
+            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google&apos;s core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
             </div>
         </div>
 
@@ -89,7 +89,7 @@ const myexperience = () => {
             </div>
 
             <div className='text-lg'>
-            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
+            As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google&apos;s core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.
             </div>
         </div>
 

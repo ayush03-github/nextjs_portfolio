@@ -10,7 +10,7 @@ const HeroSection = () => {
             <div className='text-white text-outline font-bold'>Developer .</div>
           </h1>
           <p className="text-gray-600 max-w-md mx-auto md:mx-0">
-            Hey !! how you doin&apos; , it&apos;s me Ayush Kodle. I am a web developer and I have worked on over 8 websites using about 15+ technologies. I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+            Hey !! how you doin&apos; , it&apos;s me Ayush Kodle. I am a web developer and I have worked on over 8 websites using about 15+ technologies. I&apos;m Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text.
           </p>
           <div className="social-icons flex justify-center md:justify-start space-x-4">
             <div className="w-14 h-14 border-black border-2 rounded p-4" aria-label="Facebook">
