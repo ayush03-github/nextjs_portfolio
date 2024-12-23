@@ -27,9 +27,9 @@ const projects = [
 const Projects = () => {
   return (
     <section className="projects bg-black text-white px-4 py-10">
-      <h2 className="text-4xl font-bold mb-8 text-center">
-        My <span className="text-primary">Projects</span>
-      </h2>
+            <div className="text-2xl flex justify-center items-center mb-6">
+        My<div className=' px-2 font-bold'>Projects</div>
+      </div>
       <div className="space-y-12">
         {projects.map((project, index) => (
           <div
@@ -48,12 +48,12 @@ const Projects = () => {
               />
             </div>
             <div className="md:w-1/2 w-full md:text-left">
-              <h3 className="text-2xl font-bold mb-4">
+              <h3 className="text-4xl font-bold mb-4">
                 {String(index + 1).padStart(2, '0')} 
               </h3>
-              <h3 className="text-2xl font-bold mb-4">{project.title}
+              <h3 className="text-3xl font-bold mb-4">{project.title}
               </h3>
-              <p className="text-gray-500 mb-4">{project.description}</p>
+              <p className="text-gray-500 mb-4 text-lg">{project.description}</p>
               <a
                 href="#"
                 className="inline-flex items-center text-primary hover:underline"

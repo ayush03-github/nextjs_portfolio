@@ -6,7 +6,7 @@ const HeroSection = () => {
       <section className="hero flex flex-col-reverse md:flex-row items-center justify-between p-8 lg:p-16">
         <div className="hero-content md:text-left space-y-4 md:w-1/2">
           <h1 className="text-3xl lg:text-5xl font-normal">
-            Hello I&apos;m <div className='text-black-500 font-bold'>Ayush Kodle FrontEnd</div>
+            Hello I&apos;m <div className='text-black-500 font-bold'>Δyush Kodle FrontEnd</div>
             <div className='text-white text-outline font-bold'>Developer .</div>
           </h1>
           <p className="text-gray-600 max-w-md mx-auto md:mx-0">
