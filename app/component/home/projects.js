@@ -26,7 +26,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="projects bg-black text-white px-4 py-10 flex justify-center">
+    <section className="projects bg-black text-white px-4 py-10">
       <div className="text-2xl flex justify-center items-center mb-6">
         My<div className=" px-2 font-bold">Projects</div>
       </div>
