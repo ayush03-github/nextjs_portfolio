@@ -59,7 +59,6 @@ const MyExperience = () => {
       <div className='text-2xl flex justify-center items-center mb-6'>
         My<span className='px-2 font-bold'>Experience</span>
       </div>
-
       {experiences.map((obj, i) => (
         <ExperienceCard
           key={i}
