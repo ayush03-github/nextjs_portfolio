@@ -1,7 +1,7 @@
 "use client"; // Mark the component as a Client Component
 
-import React, { useState } from 'react';
-import Image from 'next/image';
+import React, { useState } from "react";
+import Image from "next/image";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to manage the mobile menu
@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <header className='md:my-6 md:mx-10 md:py-2 md:px-8 p-4'>
-      <div className='flex justify-between items-center'>
+    <header className="md:my-6 md:mx-10 md:py-2 md:px-8 p-4">
+      <div className="flex justify-between items-center">
         {/* Logo and Name */}
-        <div className='flex items-center'>
+        <div className="flex items-center">
           <Image
             src="/assets/logo.png"
             alt="logo"
@@ -22,19 +22,16 @@ const Header = () => {
             height={40}
             className="rounded-lg"
           />
-          <div className='py-2 pl-3 text-2xl font-bold'>
-            Personal
-          </div>
+          <div className="py-2 pl-3 text-2xl font-bold">Personal</div>
         </div>
 
         {/* Hamburger Icon for small devices */}
-        <div className="lg:hidden my-auto">
+        <div className="lg:hidden">
           <button
             className="text-gray-600 focus:outline-none"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
-            {/* Hamburger Icon (3 lines) */}
             <svg
               className="h-6 w-6"
               fill="none"
@@ -52,53 +49,64 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Desktop Menu - Hidden on small screens */}
-        <nav className="hidden lg:text-xl lg:flex space-x-6">
-          <a href="#about" className="text-black font-semibold text-xl">
+        {/* Desktop Menu */}
+        <nav className="hidden lg:flex space-x-6 text-xl font-semibold">
+          <a href="#about" className="text-black hover:text-gray-600">
             About
           </a>
-          <a href="#skills" className="text-black font-semibold text-xl">
+          <a href="#skills" className="text-black hover:text-gray-600">
             Skills
           </a>
-          <a href="#projects" className="text-black font-semibold text-xl">
+          <a href="#projects" className="text-black hover:text-gray-600">
             Projects
           </a>
-          <a href="#contact" className="text-black font-semibold text-xl">
+          <a href="#contact" className="text-black hover:text-gray-600">
             Contact
           </a>
         </nav>
 
-        {/* Resume Button - Visible on screens larger than 720px */}
+        {/* Resume Button */}
         <div className="hidden lg:block">
-          <button
-            href="/path/to/resume.pdf" // Replace with your resume file path
+          <a
+            href="/assets/resume.pdf" // Path to your file in the public folder
+            download="My_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className=" flex gap-2 ml-6 px-4 py-2 bg-black text-white rounded"
+            className="flex items-center gap-2 px-4 py-2 bg-black text-white rounded hover:bg-gray-800"
           >
-            RESUME
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-</svg>
-
-          </button>
+            <span>RESUME</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="1.5"
+              stroke="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+              />
+            </svg>
+          </a>
         </div>
       </div>
 
-      {/* Mobile Menu - Shown when menuOpen is true */}
+      {/* Mobile Menu */}
       {menuOpen && (
         <div className="lg:hidden absolute top-16 left-0 right-0 bg-white shadow-md p-4">
           <nav className="flex flex-col space-y-4">
-            <a href="#about" className="text-black hover:text-gray-900">
+            <a href="#about" className="text-black hover:text-gray-600">
               About
             </a>
-            <a href="#skills" className="text-black hover:text-gray-900">
+            <a href="#skills" className="text-black hover:text-gray-600">
               Skills
             </a>
-            <a href="#projects" className="text-black hover:text-gray-900">
+            <a href="#projects" className="text-black hover:text-gray-600">
               Projects
             </a>
-            <a href="#contact" className="text-black hover:text-gray-900">
+            <a href="#contact" className="text-black hover:text-gray-600">
               Contact
             </a>
           </nav>

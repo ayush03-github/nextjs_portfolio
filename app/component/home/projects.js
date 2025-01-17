@@ -30,11 +30,11 @@ const Projects = () => {
       <div className="text-2xl flex justify-center items-center mb-6">
         My<div className=" px-2 font-bold">Projects</div>
       </div>
-      <div className="space-y-12">
+      <div className="space-y-12 ">
         {projects.map((project, index) => (
           <div
             key={project.id}
-            className={`flex flex-col md:flex-row items-center gap-8 ${
+            className={`flex flex-col md:flex-row items-center ${
               index % 2 === 0 ? "" : "md:flex-row-reverse"
             }`}
           >
