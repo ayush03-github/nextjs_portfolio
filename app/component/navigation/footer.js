@@ -1,6 +1,4 @@
-
 import Image from "next/image";
-import BackToTop from "@/app/component/BackToTop"
 
 const Footer = () => {
   return (
@@ -57,8 +55,6 @@ const Footer = () => {
               <p>kodleayush0311@gmail.com</p>
               <p>+91 9302178248</p>
             </div>
-            
-            <BackToTop />
           </div>
         </div>
       </div>

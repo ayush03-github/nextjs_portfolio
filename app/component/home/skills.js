@@ -1,41 +1,37 @@
-import React from 'react'
-
-
+import React from "react";
 
 const Skills = () => {
   return (
     <div className="p-4 md:p-20">
       <div className="text-2xl flex justify-center items-center mb-6">
-        My <div className='font-bold px-2'>Skills</div>
+        My <div className="font-bold px-2">Skills</div>
       </div>
 
       <div className="grid gap-5 lg:gap-16 grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
         {/* skill - 1 */}
         <div className="bg-white p-6 border-black border-2 rounded-sm lg:rounded-md hover:bg-black hover:text-white group">
-      <div className="flex justify-center">
-        <svg
-          width="56"
-          height="56"
-          viewBox="0 0 56 56"
-          xmlns="http://www.w3.org/2000/svg"
-          className="transition-colors duration-300"
-        >
-          <path
-            d="M0 56V0H56V56H0Z"
-            className="fill-black group-hover:fill-white transition-colors duration-300"
-          />
-          <path
-            d="M36.6147 41.9176C37.6912 43.666 38.861 45.3414 41.339 45.3414C43.4203 45.3414 44.5123 44.3069 44.5123 42.8758C44.5123 41.1631 43.383 40.5549 41.0932 39.5578L39.8378 39.0227C36.215 37.4858 33.8054 35.56 33.8054 31.4923C33.8054 27.7434 36.6754 24.8905 41.1601 24.8905C44.3536 24.8905 46.6481 25.9965 48.3032 28.8929L44.3925 31.3927C43.5323 29.8558 42.6021 29.2507 41.1601 29.2507C39.6885 29.2507 38.7567 30.1794 38.7567 31.3927C38.7567 32.8922 39.6901 33.4989 41.8445 34.4276L43.0998 34.9627C47.3698 36.7811 49.7778 38.6385 49.7778 42.8136C49.7778 47.3122 46.225 49.7778 41.4556 49.7778C36.7905 49.7778 34.1414 47.4367 32.6667 44.5387L36.6147 41.9176ZM18.5921 42.0451C19.3792 43.4545 20.5754 44.5387 22.2958 44.5387C23.9416 44.5387 24.889 43.8885 24.889 41.3607V24.8889H30.0736V42.1571C30.0736 47.3947 27.0356 49.7778 22.5992 49.7778C18.5905 49.7778 15.6972 47.0618 14.5181 44.5387L18.5921 42.0451Z"
-            className="fill-white group-hover:fill-black transition-colors duration-300"
-          />
-        </svg>
-      </div>
-      <div className="flex justify-center font-bold mt-8 duration-300">
-        <h5>JavaScript</h5>
-      </div>
-    </div>
-
-
+          <div className="flex justify-center">
+            <svg
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              xmlns="http://www.w3.org/2000/svg"
+              className="transition-colors duration-300"
+            >
+              <path
+                d="M0 56V0H56V56H0Z"
+                className="fill-black group-hover:fill-white transition-colors duration-300"
+              />
+              <path
+                d="M36.6147 41.9176C37.6912 43.666 38.861 45.3414 41.339 45.3414C43.4203 45.3414 44.5123 44.3069 44.5123 42.8758C44.5123 41.1631 43.383 40.5549 41.0932 39.5578L39.8378 39.0227C36.215 37.4858 33.8054 35.56 33.8054 31.4923C33.8054 27.7434 36.6754 24.8905 41.1601 24.8905C44.3536 24.8905 46.6481 25.9965 48.3032 28.8929L44.3925 31.3927C43.5323 29.8558 42.6021 29.2507 41.1601 29.2507C39.6885 29.2507 38.7567 30.1794 38.7567 31.3927C38.7567 32.8922 39.6901 33.4989 41.8445 34.4276L43.0998 34.9627C47.3698 36.7811 49.7778 38.6385 49.7778 42.8136C49.7778 47.3122 46.225 49.7778 41.4556 49.7778C36.7905 49.7778 34.1414 47.4367 32.6667 44.5387L36.6147 41.9176ZM18.5921 42.0451C19.3792 43.4545 20.5754 44.5387 22.2958 44.5387C23.9416 44.5387 24.889 43.8885 24.889 41.3607V24.8889H30.0736V42.1571C30.0736 47.3947 27.0356 49.7778 22.5992 49.7778C18.5905 49.7778 15.6972 47.0618 14.5181 44.5387L18.5921 42.0451Z"
+                className="fill-white group-hover:fill-black transition-colors duration-300"
+              />
+            </svg>
+          </div>
+          <div className="flex justify-center font-bold mt-8 duration-300">
+            <h5>JavaScript</h5>
+          </div>
+        </div>
 
         {/* skill - 2 */}
         <div className="bg-white p-6 border-black border-2 rounded-sm lg:rounded-md hover:bg-black hover:text-white group">
@@ -76,68 +72,59 @@ const Skills = () => {
           </div>
         </div>
 
-
         {/* skill - 3 */}
         <div className="bg-white p-6 border-black border-2 rounded-sm lg:rounded-md hover:bg-black hover:text-white group">
-  <div className="flex justify-center">
-    <svg
-      width="57"
-      height="56"
-      viewBox="0 0 57 56"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="group-hover:fill-white group-hover:stroke-white duration-300"
-    >
-      <g clipPath="url(#clip0_196_523)">
-        <path
-          d="M1.34695 35.4185C0.686721 33.0141 0.350586 30.5167 0.350586 28.0014C0.350586 16.519 7.56205 6.01989 18.2967 1.87964L19.7042 5.52223C10.464 9.08687 4.25793 18.1199 4.25793 28.0014C4.25793 30.169 4.54601 32.3155 5.11321 34.3841L1.34695 35.4185Z"
-          className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
-           
-        />
-        <path
-          d="M18.1091 1.96908C20.4313 1.06114 22.8799 0.465805 25.3814 0.202881C36.801 -0.997362 47.9963 5.07715 53.236 15.3202L49.7605 17.1007C45.2495 8.28382 35.6173 3.05591 25.7899 4.08882C23.6342 4.31539 21.5295 4.82627 19.5315 5.60659L18.1091 1.96908Z"
-          className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
-           
-        />
-        <path
-          d="M41.1669 48.36C48.792 43.4995 53.0391 34.8738 52.25 25.8541C51.9704 22.6582 51.0834 19.6058 49.618 16.7879L53.0804 14.9817C54.7845 18.2578 55.8167 21.8005 56.1415 25.5136C57.0583 35.9922 52.1264 46.0094 43.267 51.6558L41.1669 48.36Z"
-          className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
-           
-        />
-        <path
-          d="M20.0404 22.2242C22.3061 22.2242 24.1518 23.4324 25.1002 25.54L25.1752 25.7049L28.9804 24.4127L28.8994 24.2179C27.4259 20.6292 24.0317 18.3987 20.0404 18.3987C17.2344 18.3987 14.9537 19.2982 13.069 21.1449C11.1963 22.9797 10.248 25.2882 10.248 28.0073C10.248 30.7026 11.1963 32.999 13.069 34.8339C14.9537 36.6807 17.2344 37.5801 20.0404 37.5801C24.0317 37.5801 27.4259 35.3495 28.8994 31.7639L28.9804 31.5691L25.1691 30.2738L25.0971 30.4447C24.2478 32.5164 22.3572 33.7546 20.0404 33.7546C18.4618 33.7546 17.1294 33.203 16.073 32.1176C15.0046 31.0173 14.4645 29.6353 14.4645 28.0104C14.4645 26.3734 14.9926 25.0183 16.073 23.8671C17.1263 22.7759 18.4618 22.2242 20.0404 22.2242Z"
-          className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
-           
-        />
-        <path
-          d="M43.8742 18.7527L38.4515 32.4746L32.9926 18.7527H28.5271L36.1827 37.4813L30.7358 50.6905L34.6402 51.4671L48.0937 18.7527H43.8742Z"
-          className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
-           
-        />
-        <path
-          d="M31.4346 48.9877L30.4833 51.2902C30.2941 51.7459 29.862 52.0546 29.3759 52.0756C29.0548 52.0877 28.7307 52.0966 28.4036 52.0966C17.2067 52.0907 7.30034 44.1969 4.8455 33.3201L1.03418 34.1805C2.41165 40.2815 5.86885 45.8188 10.7695 49.7763C15.7273 53.7785 21.9723 55.9881 28.3616 56.0001C28.3705 56.0001 28.4185 56.0001 28.4185 56.0001C28.7937 56.0001 29.1657 55.9911 29.5379 55.9762C31.5426 55.8922 33.3342 54.636 34.0995 52.7742L35.3418 49.7642L31.4346 48.9877Z"
-          className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
-           
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_196_523">
-          <rect
-            width="56"
-            height="56"
-            fill="white"
-            transform="translate(0.350586)"
-          />
-        </clipPath>
-      </defs>
-    </svg>
-  </div>
-  <div className="flex justify-center font-bold mt-8 duration-300">
-    <h5>Cypress</h5>
-  </div>
-</div>
-
-
+          <div className="flex justify-center">
+            <svg
+              width="57"
+              height="56"
+              viewBox="0 0 57 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="group-hover:fill-white group-hover:stroke-white duration-300"
+            >
+              <g clipPath="url(#clip0_196_523)">
+                <path
+                  d="M1.34695 35.4185C0.686721 33.0141 0.350586 30.5167 0.350586 28.0014C0.350586 16.519 7.56205 6.01989 18.2967 1.87964L19.7042 5.52223C10.464 9.08687 4.25793 18.1199 4.25793 28.0014C4.25793 30.169 4.54601 32.3155 5.11321 34.3841L1.34695 35.4185Z"
+                  className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
+                />
+                <path
+                  d="M18.1091 1.96908C20.4313 1.06114 22.8799 0.465805 25.3814 0.202881C36.801 -0.997362 47.9963 5.07715 53.236 15.3202L49.7605 17.1007C45.2495 8.28382 35.6173 3.05591 25.7899 4.08882C23.6342 4.31539 21.5295 4.82627 19.5315 5.60659L18.1091 1.96908Z"
+                  className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
+                />
+                <path
+                  d="M41.1669 48.36C48.792 43.4995 53.0391 34.8738 52.25 25.8541C51.9704 22.6582 51.0834 19.6058 49.618 16.7879L53.0804 14.9817C54.7845 18.2578 55.8167 21.8005 56.1415 25.5136C57.0583 35.9922 52.1264 46.0094 43.267 51.6558L41.1669 48.36Z"
+                  className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
+                />
+                <path
+                  d="M20.0404 22.2242C22.3061 22.2242 24.1518 23.4324 25.1002 25.54L25.1752 25.7049L28.9804 24.4127L28.8994 24.2179C27.4259 20.6292 24.0317 18.3987 20.0404 18.3987C17.2344 18.3987 14.9537 19.2982 13.069 21.1449C11.1963 22.9797 10.248 25.2882 10.248 28.0073C10.248 30.7026 11.1963 32.999 13.069 34.8339C14.9537 36.6807 17.2344 37.5801 20.0404 37.5801C24.0317 37.5801 27.4259 35.3495 28.8994 31.7639L28.9804 31.5691L25.1691 30.2738L25.0971 30.4447C24.2478 32.5164 22.3572 33.7546 20.0404 33.7546C18.4618 33.7546 17.1294 33.203 16.073 32.1176C15.0046 31.0173 14.4645 29.6353 14.4645 28.0104C14.4645 26.3734 14.9926 25.0183 16.073 23.8671C17.1263 22.7759 18.4618 22.2242 20.0404 22.2242Z"
+                  className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
+                />
+                <path
+                  d="M43.8742 18.7527L38.4515 32.4746L32.9926 18.7527H28.5271L36.1827 37.4813L30.7358 50.6905L34.6402 51.4671L48.0937 18.7527H43.8742Z"
+                  className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
+                />
+                <path
+                  d="M31.4346 48.9877L30.4833 51.2902C30.2941 51.7459 29.862 52.0546 29.3759 52.0756C29.0548 52.0877 28.7307 52.0966 28.4036 52.0966C17.2067 52.0907 7.30034 44.1969 4.8455 33.3201L1.03418 34.1805C2.41165 40.2815 5.86885 45.8188 10.7695 49.7763C15.7273 53.7785 21.9723 55.9881 28.3616 56.0001C28.3705 56.0001 28.4185 56.0001 28.4185 56.0001C28.7937 56.0001 29.1657 55.9911 29.5379 55.9762C31.5426 55.8922 33.3342 54.636 34.0995 52.7742L35.3418 49.7642L31.4346 48.9877Z"
+                  className="group-hover:stroke-white group-hover:fill-white duration-300 fill-black stroke-black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_196_523">
+                  <rect
+                    width="56"
+                    height="56"
+                    fill="white"
+                    transform="translate(0.350586)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <div className="flex justify-center font-bold mt-8 duration-300">
+            <h5>Cypress</h5>
+          </div>
+        </div>
 
         {/* skill - 4 */}
         <div className="bg-white p-6 border-black border-2 rounded-sm lg:rounded-md hover:bg-black hover:text-white transition duration-300 group">
@@ -155,7 +142,6 @@ const Skills = () => {
                 <path
                   d="M31.2933 33.9258C34.5066 33.9258 37.1115 31.2727 37.1115 27.9999C37.1115 24.7271 34.5066 22.074 31.2933 22.074C28.08 22.074 25.4751 24.7271 25.4751 27.9999C25.4751 31.2727 28.08 33.9258 31.2933 33.9258Z"
                   className="group-hover:stroke-white group-hover:fill-white transition duration-300 stroke-black fill-black"
-                   
                 />
                 {/* <!-- Outer ring --> */}
                 <path
@@ -196,9 +182,6 @@ const Skills = () => {
           </div>
         </div>
 
-
-
-
         {/* skill - 5 */}
         <div className="bg-white p-6 border-black border-2 rounded-sm lg:rounded-md hover:bg-black hover:text-white transition duration-300 group">
           <div className="flex justify-center">
@@ -231,7 +214,6 @@ const Skills = () => {
                     clipRule="evenodd"
                     d="M46.7923 0C34.5741 0 26.9378 6.10909 23.8832 18.3273C28.465 12.2182 33.8105 9.92727 39.9196 11.4545C43.4052 12.3251 45.8963 14.8553 48.6539 17.6536C53.1458 22.2133 58.3453 27.4909 69.7014 27.4909C81.9196 27.4909 89.5559 21.3818 92.6105 9.16364C88.0287 15.2727 82.6832 17.5636 76.5741 16.0364C73.0885 15.1658 70.5974 12.6356 67.8398 9.83733C63.3479 5.27758 58.1484 0 46.7923 0ZM23.8832 27.4909C11.665 27.4909 4.02867 33.6 0.974121 45.8182C5.55594 39.7091 10.9014 37.4182 17.0105 38.9455C20.4961 39.8177 22.9872 42.3462 25.7448 45.1445C30.2367 49.7042 35.4362 54.9818 46.7923 54.9818C59.0105 54.9818 66.6468 48.8727 69.7014 36.6545C65.1196 42.7636 59.7741 45.0545 53.665 43.5273C50.1795 42.6567 47.6883 40.1265 44.9307 37.3282C40.4388 32.7685 35.2393 27.4909 23.8832 27.4909Z"
                     className="group-hover:fill-white group-hover:stroke-white fill-black stroke-black transition duration-300"
-                     
                   />
                 </g>
               </g>
@@ -252,38 +234,54 @@ const Skills = () => {
           </div>
         </div>
 
-
         {/* skill - 6 */}
         <div className="bg-white p-6 border-black border-2 rounded-sm lg:rounded-md hover:bg-black hover:text-white transition duration-300 group">
           <div className="flex justify-center">
-            <svg width="39" height="56" viewBox="0 0 39 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_196_522)">
-            <path d="M18.3594 27.9998C18.3594 25.5245 19.3427 23.1505 21.093 21.4002C22.8434 19.6498 25.2174 18.6665 27.6927 18.6665C30.1681 18.6665 32.542 19.6498 34.2924 21.4002C36.0427 23.1505 37.026 25.5245 37.026 27.9998C37.026 30.4752 36.0427 32.8492 34.2924 34.5995C32.542 36.3498 30.1681 37.3332 27.6927 37.3332C25.2174 37.3332 22.8434 36.3498 21.093 34.5995C19.3427 32.8492 18.3594 30.4752 18.3594 27.9998Z"
-            className="group-hover:fill-white group-hover:stroke-black fill-black stroke-white transition duration-300"/>
-            <path d="M1.19263 46.6666C1.19263 44.3238 2.12328 42.077 3.77985 40.4205C5.43642 38.7639 7.68322 37.8333 10.026 37.8333H18.8593V46.6666C18.8593 49.0093 17.9286 51.2561 16.2721 52.9127C14.6155 54.5693 12.3687 55.4999 10.026 55.4999C7.68322 55.4999 5.43642 54.5693 3.77985 52.9127C2.12328 51.2561 1.19263 49.0093 1.19263 46.6666Z"
-            className="group-hover:fill-white group-hover:stroke-white transition duration-300 fill-black stroke-black"/>
-            <path d="M26.6927 18.1667H17.8594V0.5H26.6927C29.0355 0.5 31.2822 1.43065 32.9388 3.08722C34.5954 4.74379 35.526 6.99059 35.526 9.33333C35.526 11.6761 34.5954 13.9229 32.9388 15.5794C31.2822 17.236 29.0355 18.1667 26.6927 18.1667Z"
-             className="group-hover:fill-black transition duration-300 fill-white stroke-black group-hover:stroke-white"/>
-            <path d="M0.692627 9.33333C0.692627 11.8087 1.67596 14.1827 3.4263 15.933C5.17664 17.6833 7.55061 18.6667 10.026 18.6667H19.3593V0H10.026C7.55061 0 5.17664 0.98333 3.4263 2.73367C1.67596 4.48401 0.692627 6.85798 0.692627 9.33333Z"  
-             className="group-hover:fill-white transition duration-300 fill-black"/>
-            <path d="M3.77985 34.2462C2.12328 32.5896 1.19263 30.3428 1.19263 28.0001C1.19263 25.6573 2.12328 23.4105 3.77985 21.754C5.43642 20.0974 7.68322 19.1667 10.026 19.1667H18.8593V36.8334H10.026C7.68322 36.8334 5.43642 35.9028 3.77985 34.2462Z"
-             className="group-hover:fill-black group-hover:stroke-white transition duration-300 stroke-black fill-white"/>
-            </g>
-            <defs>
-            <clipPath id="clip0_196_522">
-            <rect width="37.3333" height="56" fill="white" transform="translate(0.692627)"/>
-            </clipPath>
-            </defs>
+            <svg
+              width="39"
+              height="56"
+              viewBox="0 0 39 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_196_522)">
+                <path
+                  d="M18.3594 27.9998C18.3594 25.5245 19.3427 23.1505 21.093 21.4002C22.8434 19.6498 25.2174 18.6665 27.6927 18.6665C30.1681 18.6665 32.542 19.6498 34.2924 21.4002C36.0427 23.1505 37.026 25.5245 37.026 27.9998C37.026 30.4752 36.0427 32.8492 34.2924 34.5995C32.542 36.3498 30.1681 37.3332 27.6927 37.3332C25.2174 37.3332 22.8434 36.3498 21.093 34.5995C19.3427 32.8492 18.3594 30.4752 18.3594 27.9998Z"
+                  className="group-hover:fill-white group-hover:stroke-black fill-black stroke-white transition duration-300"
+                />
+                <path
+                  d="M1.19263 46.6666C1.19263 44.3238 2.12328 42.077 3.77985 40.4205C5.43642 38.7639 7.68322 37.8333 10.026 37.8333H18.8593V46.6666C18.8593 49.0093 17.9286 51.2561 16.2721 52.9127C14.6155 54.5693 12.3687 55.4999 10.026 55.4999C7.68322 55.4999 5.43642 54.5693 3.77985 52.9127C2.12328 51.2561 1.19263 49.0093 1.19263 46.6666Z"
+                  className="group-hover:fill-white group-hover:stroke-white transition duration-300 fill-black stroke-black"
+                />
+                <path
+                  d="M26.6927 18.1667H17.8594V0.5H26.6927C29.0355 0.5 31.2822 1.43065 32.9388 3.08722C34.5954 4.74379 35.526 6.99059 35.526 9.33333C35.526 11.6761 34.5954 13.9229 32.9388 15.5794C31.2822 17.236 29.0355 18.1667 26.6927 18.1667Z"
+                  className="group-hover:fill-black transition duration-300 fill-white stroke-black group-hover:stroke-white"
+                />
+                <path
+                  d="M0.692627 9.33333C0.692627 11.8087 1.67596 14.1827 3.4263 15.933C5.17664 17.6833 7.55061 18.6667 10.026 18.6667H19.3593V0H10.026C7.55061 0 5.17664 0.98333 3.4263 2.73367C1.67596 4.48401 0.692627 6.85798 0.692627 9.33333Z"
+                  className="group-hover:fill-white transition duration-300 fill-black"
+                />
+                <path
+                  d="M3.77985 34.2462C2.12328 32.5896 1.19263 30.3428 1.19263 28.0001C1.19263 25.6573 2.12328 23.4105 3.77985 21.754C5.43642 20.0974 7.68322 19.1667 10.026 19.1667H18.8593V36.8334H10.026C7.68322 36.8334 5.43642 35.9028 3.77985 34.2462Z"
+                  className="group-hover:fill-black group-hover:stroke-white transition duration-300 stroke-black fill-white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_196_522">
+                  <rect
+                    width="37.3333"
+                    height="56"
+                    fill="white"
+                    transform="translate(0.692627)"
+                  />
+                </clipPath>
+              </defs>
             </svg>
-
           </div>
           <div className="flex justify-center font-bold mt-8">
             <h5>Figma</h5>
           </div>
         </div>
-
-
-
       </div>
     </div>
   );
