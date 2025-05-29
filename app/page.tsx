@@ -6,9 +6,12 @@ import Projects from "@/app/component/home/projects";
 import Testimonial from "@/app/component/home/testimonial";
 import DownloadButton from "@/app/component/home/downloadButton";
 
+import ProgressBar from "@/app/component/home/progressBar";
+
 export default function Home() {
   return (
     <div>
+      <ProgressBar />
       <Hero />
       <DownloadButton />
       <Skills />

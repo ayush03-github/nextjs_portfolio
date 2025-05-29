@@ -9,7 +9,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <div className="py-10 px-4 md:py-16 md:px-20">
+    <div className="py-10 px-4 md:py-16 md:px-20 bg-white">
       <div className="md:flex">
         <div className="mx-1 my-5 md:my-auto">
           <Image

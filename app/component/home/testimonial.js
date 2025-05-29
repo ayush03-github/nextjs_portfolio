@@ -33,7 +33,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <section className="px-6 py-12">
+    <section className="px-6 py-12 bg-white">
       <div className="text-2xl flex justify-center items-center mb-6">
         My<div className=" px-2 font-bold">Testimonial</div>
       </div>

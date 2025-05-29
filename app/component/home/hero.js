@@ -4,7 +4,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <div>
-      <section className="hero flex flex-col-reverse md:flex-row items-center justify-between p-8 lg:p-16">
+      <section className="hero flex flex-col-reverse md:flex-row items-center bg-white justify-between p-8 lg:p-16">
         <div className="hero-content md:text-left space-y-4 md:w-1/2">
           <h1 className="text-3xl lg:text-5xl font-normal">
             Hello I&apos;m{" "}
@@ -12,11 +12,9 @@ const HeroSection = () => {
             <div className="text-white text-outline font-bold">Developer .</div>
           </h1>
           <p className="text-gray-600 max-w-md mx-auto md:mx-0">
-            Hey !! how you doin&apos; , it&apos;s me Ayush Kodle. I am a web
-            developer and I have worked on over 8 websites using about 15+
-            technologies. I&apos;m Evren Shah Lorem Ipsum is simply dummy text
-            of the printing and typesetting industry. Lorem Ipsum has been the
-            industry&apos;s standard dummy text.
+            Hey !! how you doin&apos; , it&apos;s me Ayush Kodle. I am a
+            front-end web developer and I have worked on over 6 websites using
+            about 8+ technologies.
           </p>
           <div className="social-icons flex justify-center md:justify-start space-x-4">
             <div
