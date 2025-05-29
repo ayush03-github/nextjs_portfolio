@@ -1,7 +1,6 @@
 "use client"; // Mark the component as a Client Component
 
 import React, { useState } from "react";
-import Image from "next/image";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to manage the mobile menu
